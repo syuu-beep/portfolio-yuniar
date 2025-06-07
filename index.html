@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Yuniar's Front-End Developer Portfolio showcasing projects, skills, and content information."
+    />
+    <title>Yuniar's Portfolio</title>
+
+    <!--My Own CSS-->
+    <link rel="stylesheet" href="css/app.css" />
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Font Awesome 5.15.4-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <div class="navbar-container">
+        <div class="logo">
+          <span>YUNIAR</span>
+        </div>
+
+        <nav class="nav-list">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button id="toggle-darkmode">Toggle Dark Mode</button>
+      </div>
+    </header>
+
+    <main>
+      <!--Aside-->
+      <aside class="sidebar">
+        <article class="profile-card">
+          <img
+            src="img/yuni.jpg"
+            alt="Yuniar smiling in a developer-themed profile photo"
+            class="profile-pic"
+          />
+          <h3 class="profile-name">Yuniar</h3>
+          <p class="profile-title">Junior Front-End Developer</p>
+          <p class="profile-desc">
+            Passionate about user-friendly interfaces and clean web design.
+          </p>
+        </article>
+      </aside>
+
+      <!--Article-->
+      <section id="content">
+        <article id="home" class="content-description">
+          <h1 class="title">Hey I'm Yuniar</h1>
+          <h2 class="subtitle">Front-End Developer</h2>
+          <p>
+            I build responsive and user-friendly websites using HTML, CSS, and
+            JavaScript. <br />Passionate about clean code and great user
+            experience.
+          </p>
+          <div class="button-container">
+            <a href="assets/cv-yuniar.pdf" class="button-cv" target="_blank"
+              >Download CV</a
+            >
+            <a href="#contact" class="button-contact">Contact Info</a>
+          </div>
+          <div class="social-media">
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <article id="about" class="card">
+          <h2>About Me</h2>
+          <p>
+            I am a self-taught front-end developer currently learning HTML and
+            CSS then working on portfolio projects. <br />
+            I enjoy turning complex problems into simple, beautiful, and
+            intuitive designs.
+          </p>
+        </article>
+
+        <article id="projects">
+          <h2>My Projects</h2>
+          <div class="project-list">
+            <div class="project-card">
+              <section>
+                <h3>Responsive Portofolio Website</h3>
+                <p>
+                  A personal website made with HTML, CSS, and JavaScript.
+                  Includes dark mode and responsive layout.
+                </p>
+              </section>
+            </div>
+            <div class="project-card">
+              <section>
+                <h3>Another projects add here</h3>
+                <p>My another projects will be displayed here.</p>
+              </section>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+      <p>&copy; 2025 Yuniar. All rights reserved.</p>
+      <p>
+        Contact:
+        <a href="mailto:syuniarsih090@gmail.com">syuniarsih090@gmail.com</a>
+      </p>
+    </footer>
+
+    <!--JavaScript-->
+    <script src="js/app.js"></script>
+  </body>
+</html>
