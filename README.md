@@ -27,8 +27,11 @@ Welcome to my personal portfolio website! This project showcases my skills in HT
 
 ## 🖥️ Live Preview
 
-You can view the live site here:  
-🔗 [https://hometown-lampung.netlify.app/](https://hometown-lampung.netlify.app/)
+This is my personal portfolio website built with HTML, CSS, and JavaScript.
+The website is live on Github Pages:  
+
+View website:
+🔗 [https://syuu-beep.github.io/portfolio-yuniar/)
 
 ## 📸 Featured Projects
 
