@@ -51,8 +51,8 @@ I’m Yuniar, a self-taught junior front-end developer from Lampung, Indonesia. 
 
 - 📧 Email: [syuniarsih090@gmail.com](mailto:syuniarsih090@gmail.com)  
 - 🐙 GitHub: [@syuu-beep](https://github.com/syuu-beep)  
-- 📸 Instagram: [@yourusername](#)  
-- 💼 LinkedIn: [@yourusername](#)
+- 📸 Instagram: [@syyuniarsy](https://www.instagram.com/syyuniarsy)  
+- 💼 LinkedIn: [@Siti Yuniarsih](https://www.linkedin.com/in/syuniarsih/)
 
 ---
 
